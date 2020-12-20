@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Speak</title>
+    <title>Talk to minions</title>
+    <link href="/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>talk banana</h1>
+    <nav>
+        <div style="font-size: 2rem; padding: 1rem;font-weight: bold;">
+            Banana talk
+        </div>
+        <img class="image1" src="/images/minions.jpg" alt="I am a minion">
     
+    </nav>
+
+    <main>
+        
+        <textarea id="txt-input"
+            placeholder="Put your message here which you want to convert to banana language"></textarea>
+        <button id="btn-translate"> Translate To Banana</button>
+        <button id="clear-button">
+            Clear All
+        </button>
+        <div>Output will come here 👇</div>
+
+        <div id="txt-output" style="padding: 1rem; font-size: large;"></div>
+
+
+    </main>
+
+
+    <footer>
+        <div style="font-size: x-large;font-weight: bold;">About</div>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language.The minions' language includes French, Spanish … and food references.Use this translator to convert your text from English to Banana language.</p>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
