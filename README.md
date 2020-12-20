@@ -1,2 +1,2 @@
 # banana-speak
- Lesson 4: intro to vanilla js
+Use this app to speak like a minion.
